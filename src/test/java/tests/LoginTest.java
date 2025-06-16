@@ -14,12 +14,9 @@ public class LoginTest extends BaseTest {
 	public void testValidLogin() {
 		
 		LoginPage login= new LoginPage(driver);
-		
+		// Amazon login using phone number
 		login.entermobnum("8332844480");
 		login.clickcontinue();
-		  //WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-		//Thread.sleep(15000);
-		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		login.enterpassword("Sambhu@6050");
 		login.clicksignin();
 		
