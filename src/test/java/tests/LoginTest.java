@@ -17,6 +17,7 @@ public class LoginTest extends BaseTest {
 		// Amazon login using phone number
 		login.entermobnum("8332844480");
 		login.clickcontinue();
+		// this is password
 		login.enterpassword("Sambhu@6050");
 		login.clicksignin();
 		
