@@ -21,6 +21,7 @@ public class LoginTest extends BaseTest {
 		Log.info("Adding Credentials..");
 		login.entermobnum("8332844480");
 		login.clickcontinue();
+		// this is password
 		login.enterpassword("Sambhu@6050");
 		login.clicksignin();
 		
